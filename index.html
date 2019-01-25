@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- jQuery Link -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Game Logic -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div class="jumbotron" style="background-color: black; color: white;">
+            <div class="container">
+                <h1 class="text-center">
+                    <strong>State Capital Trivia Game!</strong>
+                    <div id="instructions">
+                        <h2>Type true or false for each statement</h2>
+                    </div>
+                    <div id="timelimit">
+                        <h2>You have 30 seconds to finish</h2>
+                    </div>
+                </h1>
+
+            </div>
+        </div>
+        
+            <div id="row">
+                <!-- Need to store answers to questions (true or false), make them all lower case. -->
+                <div id="Question1">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Phoenix is the capital of Arizona.</span>
+                    </div>
+                    <input id="q1ans" type="text" class="form-control"></input>
+                </div>
+
+            </div>
+
+            <div id="row">
+
+                <div id="Question2">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Los Angeles is the capital of California.</span>
+                    </div>
+                    <input id="q2ans" type="text" class="form-control"></input>
+                </div>
+
+            </div>
+
+            <div id="row">
+
+                <div id="Question3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Seattle is the capital of Washington.</span>
+                    </div>
+                    <input type="text" class="form-control"></input>
+                </div>
+
+
+            </div>
+            <div id="row">
+                <button id="submit">submit</button>
+
+    </div>
+    </div>
+    <div id="row">
+        <div id="score">
+            <h2>Score:</h2>
+
+        </div>
+        <div id="row">
+            <div id="time-left"></div>
+
+
+
+
+
+            <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>
